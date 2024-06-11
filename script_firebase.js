@@ -23,7 +23,7 @@ window.sendRequest = function() {
     resultDiv.innerHTML = '통신 중...';
 
     // Firebase Functions 호출
-    const helloWorld = httpsCallable(functions, 'helloWorld');
+    const helloWorld = httpsCallable(functions, 'hello');
     helloWorld()
         .then((result) => {
             resultDiv.innerHTML = `
