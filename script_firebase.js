@@ -2,16 +2,15 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js";
 import { getFunctions, httpsCallable } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-functions.js";
 
-
+// Firebase 설정
 const firebaseConfig = {
-    apiKey: "AIzaSyCfmGQMExLcWn97vtECZqEO1MX_Rjemhzo",
-    authDomain: "tesetfirebase.firebaseapp.com",
-    projectId: "tesetfirebase",
-    storageBucket: "tesetfirebase.appspot.com",
-    messagingSenderId: "379651260846",
-    appId: "1:379651260846:web:5c0247479c0fac9daf883f"
-  };
-
+    apiKey: "YOUR_API_KEY",
+    authDomain: "YOUR_AUTH_DOMAIN",
+    projectId: "YOUR_PROJECT_ID",
+    storageBucket: "YOUR_STORAGE_BUCKET",
+    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+    appId: "YOUR_APP_ID"
+};
 
 
 // Firebase 초기화
