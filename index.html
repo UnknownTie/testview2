@@ -34,11 +34,17 @@ html
         <h1>통신 테스트 사이트</h1>
     </header>
     <main>
-        <button onclick="callSimpleFunction()">Call Simple Function</button>
-        <button onclick="callFunctionWithVariable()">Call Function with Variable</button>
+        <h2>firebase function</h2>
+        <button onclick="callSimpleFunction()">변수X 함수</button>
+        <button onclick="callFunctionWithVariable()">변수 1개 함수</button>
+        <h2>gemini api</h2>
+        <button id="fetchPrice">Fetch BTC Price</button>
+        <p id="price">Price will be displayed here.</p>
         <div id="result"></div>
     </main>
     <script type="module" src="script_firebase.js"></script>
+    <script type="module" src="script_gemini.js"></script>
+
 
 </body>
 </html>
