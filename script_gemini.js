@@ -22,7 +22,6 @@ document.getElementById('analyzeText').addEventListener('click', analyzeText);
 
 async function analyzeText() {
     //const apiKey = 'YOUR_AI_GEMINI_API_KEY';  // 여기에 실제 AI Gemini API 키를 입력하세요.
-    const apiKey = 'AIzaSyAb4740yKgP7AQ3vUC_zQijT9EXCaLHwS8';  // 여기에 실제 AI Gemini API 키를 입력하세요.
     const apiUrl = 'https://api.aigemini.com/v1/analyze';  // 여기에 실제 AI Gemini API 엔드포인트를 입력하세요.
     const text = document.getElementById('inputText').value;
 
